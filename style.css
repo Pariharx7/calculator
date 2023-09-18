@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D8E8F3;
+}
+.container{
+    border: 4px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 50vh;
+    margin: 5vh auto;
+    background-color: #BFC9EB;
+}
+.rows{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttons{
+    border: 3px solid #F1EEF2;
+    border-radius: 2rem;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    background-color: #A6B4E8;
+    font-size: 2rem;
+    color: honeydew;
+    font-weight: 700;
+    cursor: pointer;
+    transform: all 1s ease;
+}
+.calc-heading{
+    text-align: center;
+    font-size: small;
+    color: honeydew;
+}
+.display-bar{
+    
+    text-align: right;
+    border: 3px solid black;
+    border-radius: 2rem;
+    height: 5.3rem;
+    width: 22rem;
+    margin: 2rem auto;
+    background-color: #D6EDBF;
+    padding: 10px;
+}
+.previous{
+    font-size: 20px;
+}
+.current{
+    font-size: 30px;
+}
+.delete, .clear{
+    flex: 1;
+}
+
+.numbers:hover{
+    background-color: #fff;
+    color: black;
+    border-color: black;
+}
+
+.clear:hover{
+    background-color: red;
+    color: black;
+    border-color: black;
+}
+
+.operators:hover{
+    background-color: aqua;
+    color: black;
+    border-color: black;
+}.delete:hover, .deci:hover{
+    background-color: gold;
+    color: black;
+    border-color: black;
+}
+.equal:hover{
+    background-color: chartreuse;
+    color: black;
+    border-color: black;
+}
